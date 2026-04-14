@@ -25,9 +25,7 @@ plt.show()
 sns.histplot(data=first, x="prglngth",
     color="red",label="firstbabies",
     kde=True, cumulative=True, bins=range(20,50),
-    stat="frequency")
+    stat="probability")
 plt.xlim(20,50)
 plt.legend()
 plt.show()
-
-# TODO: explain stats parameter
