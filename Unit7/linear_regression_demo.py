@@ -11,7 +11,7 @@ df = df.dropna()
 # Perform linear regression using linear least square
 k, d, p, _, _= stats.linregress(df.htm3, df.wtkg2)
 
-print("The line fit was successfl")
+print("The line fit was successfull")
 
 # Extract the data from the dataframe
 x, y = df.htm3, df.wtkg2
