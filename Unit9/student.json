@@ -1,0 +1,10 @@
+{
+"name":"Alice",
+"age":23,
+"is_student":true,
+"courses":["Math","AI","Databases"],
+"address":{
+"city": "Linz",
+"zip":"4020"
+}
+}
